@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Context>
+
+    <Resource name="jdbc/azex" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://itcitydb.c6eliwtv3p57.eu-central-1.rds.amazonaws.com/azexdb"
+              username="itcityadmin"
+              password="A3$c_xEkQNA6R"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="10"/>
+
+</Context>
+
+
